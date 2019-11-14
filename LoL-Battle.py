@@ -85,27 +85,27 @@ class Champion():
             choicevar = input("")
             if (choicevar == "1"):
                 self.akali(playername1)
-                print(self.playername + "You Chose " + self.champname + "!")
+                print(self.playername + " You Chose " + self.champname + "!")
                 break
             elif (choicevar == "2"):
                 self.braum(playername1)
-                print(self.playername + "You Chose " + self.champname + "!")
+                print(self.playername + " You Chose " + self.champname + "!")
                 break
             elif (choicevar == "3"):
                 self.amumu(playername1)
-                print(self.playername + "You Chose " + self.champname + "!")
+                print(self.playername + " You Chose " + self.champname + "!")
                 break
             elif (choicevar == "4"):
                 self.caitlyn(playername1)
-                print(self.playername + "You Chose " + self.champname + "!")
+                print(self.playername + " You Chose " + self.champname + "!")
                 break
             elif (choicevar == "5"):
                 self.ivern(playername1)
-                print(self.playername + "You Chose " + self.champname + "!")
+                print(self.playername + " You Chose " + self.champname + "!")
                 break
             elif (choicevar == "6"):
                 self.fiddlesticks(playername1)
-                print(self.playername + "You Chose " + self.champname + "!")
+                print(self.playername + " You Chose " + self.champname + "!")
                 break
             else:
                 print("I Didn't recognize your choice! Try Again!")
