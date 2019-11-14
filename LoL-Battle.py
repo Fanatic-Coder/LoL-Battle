@@ -1,4 +1,5 @@
 from time import sleep
+import msvcrt as m
 
 
 # Defining first the game characters/champions
@@ -162,3 +163,7 @@ for i in range(10):
     sleep(1)
 
 winner = Champion().battle(player1, player2)
+def wait():
+    m.getch()
+
+wait()
