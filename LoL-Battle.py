@@ -142,7 +142,9 @@ class Champion():
                     win = player2.playername
                 break
         else:
-            print("player1 " + str(int(player1.health)) + " player2  " + str(int(player2.health)))
+            print("")
+            print(str(player1.playername) + " " + str(player1.champname) + " health: " + str(int(player1.health)))
+            print(str(player2.playername) + " " + str(player2.champname) + " health: " + str(int(player2.health)))
             if player1.health == player2.health:
                 print("We have A Tie! Well done to you both!")
                 win = ""
