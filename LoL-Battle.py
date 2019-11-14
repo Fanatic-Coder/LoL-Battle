@@ -170,4 +170,5 @@ winner = Champion().battle(player1, player2)
 def wait():
     m.getch()
 
+print("Press any key to exit...")
 wait()
