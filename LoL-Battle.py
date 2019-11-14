@@ -133,7 +133,9 @@ class Champion():
                     player1.health -= player2.attackdmg
                     print(player1.playername + " " + player1.champname + " Health: %s " % int(player1.health))
             else:
-                print("player1 " + str(int(player1.health)) + " player2  " + str(int(player2.health)))
+                print("")
+                print(str(player1.playername) + " " + str(player1.champname) + " Health: " + str(int(player1.health)))
+                print(str(player2.playername) + " " + str(player2.champname) + " Health: " + str(int(player2.health)))
                 if player1.health == player2.health:
                     print("We have A Tie! Well done to you both!")
                 elif player1.health > player2.health:
