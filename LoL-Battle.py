@@ -66,10 +66,10 @@ class Champion():
 
     def choosingpl(self):
         # The name of Player1
-        playername1 = input("Tell me your name Player! ")
+        playername = input("Tell me your name Player! ")
         # Player chooses the game character
 
-        print(playername1 + " Choose Your Champion! \n")
+        print(playername + " Choose Your Champion! \n")
         print("1 for -Akali- \n")
         print("2 for -Braum- \n")
         print("3 for -Amumu- \n")
@@ -84,27 +84,27 @@ class Champion():
         while choicevar != "1" or choicevar != "2" or choicevar != "3" or choicevar != "4" or choicevar != "5" or choicevar != "6":
             choicevar = input("")
             if (choicevar == "1"):
-                self.akali(playername1)
+                self.akali(playername)
                 print(self.playername + " You Chose " + self.champname + "!")
                 break
             elif (choicevar == "2"):
-                self.braum(playername1)
+                self.braum(playername)
                 print(self.playername + " You Chose " + self.champname + "!")
                 break
             elif (choicevar == "3"):
-                self.amumu(playername1)
+                self.amumu(playername)
                 print(self.playername + " You Chose " + self.champname + "!")
                 break
             elif (choicevar == "4"):
-                self.caitlyn(playername1)
+                self.caitlyn(playername)
                 print(self.playername + " You Chose " + self.champname + "!")
                 break
             elif (choicevar == "5"):
-                self.ivern(playername1)
+                self.ivern(playername)
                 print(self.playername + " You Chose " + self.champname + "!")
                 break
             elif (choicevar == "6"):
-                self.fiddlesticks(playername1)
+                self.fiddlesticks(playername)
                 print(self.playername + " You Chose " + self.champname + "!")
                 break
             else:
