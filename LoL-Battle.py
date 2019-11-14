@@ -120,18 +120,18 @@ class Champion():
         for i in range(1, 5):
             if player1.health > 0 and player2.health > 0:
                 # Attack of Player1
-                aa1 = input(player1.playername + " " + player1.champname + " .Attack now! Press X! ")
+                aa1 = input(player1.playername + " " + player1.champname + ", Attack now! Press X! ")
                 if aa1 == 'x' or 'X':
                     player1.attackdmg = player1.attackdmg * (100 / (100 + player2.armor))
                     player2.health -= player1.attackdmg
-                    print(player2.playername + " " + player2.champname + ".Health: %s " % int(player2.health))
+                    print(player2.playername + " " + player2.champname + " Health: %s " % int(player2.health))
 
                 # Attack of Player2
-                aa2 = input(player2.playername + " " + player2.champname + " .Attack now! Press M! ")
+                aa2 = input(player2.playername + " " + player2.champname + ", Attack now! Press M! ")
                 if aa2 == 'm' or 'M':
                     player2.attackdmg = player2.attackdmg * (100 / (100 + player1.armor))
                     player1.health -= player2.attackdmg
-                    print(player1.playername + "." + player1.champname + ".Health: %s " % int(player1.health))
+                    print(player1.playername + " " + player1.champname + " Health: %s " % int(player1.health))
             else:
                 print("player1 " + str(int(player1.health)) + " player2  " + str(int(player2.health)))
                 if player1.health == player2.health:
